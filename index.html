@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <title>Game</title>
+</head>
+<body>
+<div id="main">
+        <div id="scorecard">
+            <div>
+                <p id="game-title">ROCK<br>
+                PAPER<br>
+                SCISSORS</p>
+            </div>
+
+            <div id="computer-scorecard">
+                <p id="para1">COMPUTER<br>SCORE</p>
+                <p id="computer-score"></p>
+            </div>
+
+            <div id="player-scorecard">
+                <p id="para2">YOUR<br>SCORE</p>
+                <p id="player-score"></p>
+            </div>
+        </div>
+
+    <div id="lower-section">
+        <div id="upper-hands">
+            <div id="icons">
+                <img class="stone" src="stone.svg" onclick="select('stone')">
+            </div>
+            <div>
+                <img class="paper" src="paper.svg" onclick="select('paper')">
+            </div>
+        </div>
+
+        <div>
+            <img class="scissor" src="scissor.svg" onclick="select('scissor')">
+        </div>
+    </div>
+</div>
+
+
+<button id="rules">RULES</button>
+<div id="myModal" class="modal">
+    <span class="close">X</span>
+    <div class="modal-content">
+      
+      <h2 style="text-align: center;">Game Rules</h2>
+      <ul type="square">
+        <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li><br>
+        <li>Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li><br>
+        <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li><br>
+        <li>If both players lay down the same hand, each player lays down another hand</li>
+      </ul>
+    </div>
+  
+</div>
+<script src="./JS/script.js"></script>
+</body>
+</html>

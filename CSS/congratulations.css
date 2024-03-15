@@ -1,0 +1,99 @@
+body{
+    background-color: #8CC461;
+}
+
+#main{
+    margin-top: 90px;
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upper-text{
+    color:white;
+    text-align: center;
+}
+
+#play-again{
+    font-size: small;
+    font-weight: 600;
+    padding: 10px;
+    width:200px;
+    background-color: white;
+    border: 0px solid white;
+    border-radius: 8px;
+}
+
+#container{
+    position: absolute;
+}
+.img2{
+    position: absolute;
+    top:200px;
+    left:680px;
+}
+
+.hurray{
+    color: white;
+    font-size: 4em;
+    text-align: center;
+}
+
+.win{
+    color: white;
+    text-align: center;
+}
+
+#rules{
+    font-size: large;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    position: fixed;
+    bottom:20px;
+    right: 50px;
+    background-color: #8CC461;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    bottom:320px;
+    right: 50px;
+    width: 20%; 
+    height: 20%;
+}
+  
+.close {
+    background-color: red;
+    padding: 5px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border: 6px solid white;
+    border-radius: 100%;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+.modal-content {
+    background-color: #004429;
+    color: white;
+    font-size: small;
+    margin: 15% auto;
+    padding: 20px;
+    border: 6px solid white;
+    width: 80%;
+    border-radius: 8px;
+  }
+
+li::marker {
+    color: #FFD600;
+}
